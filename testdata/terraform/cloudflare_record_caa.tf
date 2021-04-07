@@ -4,7 +4,7 @@ resource "cloudflare_record" "terraform_managed_resource" {
     tag = "issuewild"
     value = "example.com"
   }
-  name = "example.com"
+  name = "@"
   proxied = false
   ttl = 120
   type = "CAA"
